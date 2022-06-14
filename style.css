@@ -68,8 +68,13 @@ article.box{
     font-size: small;
 }
 
+.box:active,
 .box:hover{
         background-image: linear-gradient(to right, rgb(255, 115, 0) 20%, yellow );
+}
+
+a{
+    text-decoration: none;
 }
 
 section aside{
