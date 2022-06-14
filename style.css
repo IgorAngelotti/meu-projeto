@@ -68,8 +68,7 @@ article.box{
     font-size: small;
 }
 
-.box:active,
-.box:hover{
+.box:active{
         background-image: linear-gradient(to right, rgb(255, 115, 0) 20%, yellow );
 }
 
