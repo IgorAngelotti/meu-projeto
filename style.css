@@ -54,22 +54,30 @@ main{
 .segundo > p{
     text-align: justify;
     padding: 0px 20px 32px 20px;
-    max-width: 860px;
+    max-width: 900px;
     margin: auto;
 }
 
-article.box{
+article.box, article.box1{
     background-color: rgb(87, 87, 87);
     min-height: 200px;
-    max-height: 700px;
     width: 200px;
     margin: 10px;
     display: inline-block;
     font-size: small;
 }
 
-.box:active{
-        background-image: linear-gradient(to right, rgb(255, 115, 0) 20%, yellow );
+article.box1{
+    background-image: url(Imagens/html.png);
+    background-size: 100% 100%;
+}
+
+.box:active, .box1:active{
+        background-image: linear-gradient(to right, rgba(255, 115, 0, 0.26) 20%, rgba(255, 255, 0, 0.158) );
+}
+
+.box:hover, .box1:hover{
+    background-color: darkgrey;
 }
 
 a{
