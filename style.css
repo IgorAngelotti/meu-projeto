@@ -3,7 +3,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     color: white;
 }
 
@@ -61,11 +60,38 @@ main{
 article.box, article.box1{
     background-color: rgb(87, 87, 87);
     min-height: 200px;
-    width: 200px;
+    max-height: 200px;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
     margin: 10px;
     display: inline-block;
     font-size: small;
 }
+
+/*      TESTES COM INPUT
+
+p#button, p#input{
+    margin: auto;
+    text-align: center;
+}
+
+button{
+    color: black;
+    border: 0px solid black;
+    padding: 10px;
+    border-radius:50px;
+    margin: auto;
+}
+
+input#search{
+    border-radius: 30px;
+    border: 0px solid black;
+    color: black;
+    padding: 5px;
+}
+
+*/
 
 article.box1{
     background-image: url(Imagens/html.png);
