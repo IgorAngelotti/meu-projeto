@@ -124,3 +124,18 @@ aside > h2{
     text-align: center;
     margin: auto;
 }
+
+.botao{
+    padding: 10px 10px 0px 90%;
+}
+
+.botao > button, a{
+    color: black;
+    padding: 5px;
+    
+}
+
+.botao > button:hover{
+    background-color: darkgray;
+}
+
