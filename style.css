@@ -126,16 +126,25 @@ aside > h2{
 }
 
 .botao{
-    padding: 10px 10px 0px 90%;
+    padding-top: 30px;
+    margin-bottom: -30px;
+}
+
+button{
+    background-image: linear-gradient(to right, rgb(255, 115, 0) 20%, yellow );
+    font-weight: bolder;
+    border-radius: 10px;
 }
 
 .botao > button, a{
     color: black;
-    padding: 5px;
+    padding: 8px;
+    text-decoration: underline;
     
 }
 
 .botao > button:hover{
     background-color: darkgray;
+
 }
 
