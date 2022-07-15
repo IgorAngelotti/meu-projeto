@@ -38,7 +38,7 @@ main{
 
 .primeiro h1,
 .segundo h1{
-    padding: 0px 0px 32px 0px;
+    padding: 20px;
     font-size: 2em;
     max-width: 200px;
     margin: auto;
@@ -148,3 +148,25 @@ button{
 
 }
 
+/* PARTE DA CALCULADORA
+
+div#calculadora{
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(250, 250, 250, 0.411);
+    padding: 20px;
+}
+
+
+div#conteudo{
+    max-width: 800px;
+    padding: 20px;
+}
+
+#conteudo input{
+    color: black;
+    padding: 3px;
+    
+}
+
+ */
